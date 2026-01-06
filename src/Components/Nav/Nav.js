@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
-// import logo from "../../Assets/images/logo.png";
 import iconHamburger from "../../Assets/icons/list.svg";
 import iconX from "../../Assets/icons/x-lg.svg";
 import "./Navbar.css";
-// import i18n from "../../i18n";
 import TranslateButton from "../TranslateButton";
 
 const Nav = ({ checkLocation, t, resetScroll }) => {
@@ -27,7 +25,6 @@ const Nav = ({ checkLocation, t, resetScroll }) => {
       <nav id="nav" className="section">
         {/* Desktop Nav */}
         <Link className="nav-logo" to="/" onClick={() => resetScroll()}>
-          {/* <img src={logo} alt="logo" /> */}
           spanish with monse
         </Link>
 

@@ -294,15 +294,19 @@ button,
 }
 
 .section {
-  margin: 0 10px;
+  margin: 200px 10px 50px 10px;
 }
 
+@media only screen and (min-width: 580px){
+  .section {
+    margin: 300px 10px 0px 10px;
+  }
+}
 
 /* Hero */
 #hero {
   width: 100%;
 }
-
 .hero-container {
   display: flex;
   flex-direction: column;
@@ -335,11 +339,8 @@ button,
 }
 
 @media only screen and (min-width: 580px){
-  .section {
-    margin: 0px 20px;
-  }
   .hero-container {
-    flex-direction: row;
+  flex-direction: row;
     width: 80%;
     margin: 0 auto;
   }

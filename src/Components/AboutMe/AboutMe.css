@@ -1,13 +1,6 @@
-#about-me {
-    margin: 70px 10px;
-}
-/* .about-me-container {
-    height: 850px;
-} */
 .about-me-box {
     padding: 30px 15px;
     margin: auto;
-    /* height: 700px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,12 +33,13 @@
 
 .about-me-picture img {
     max-width: 380px;
+    width: 340px;
 }
 
 @media only screen and (min-width: 620px){
     .about-me-text h2 {
         max-width: 50%;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         margin-top: 0px;
     }
     .social-icons {
@@ -54,7 +48,6 @@
         justify-content: space-evenly;
     }
     .about-me-picture img {
-        max-width: 300px;
         margin: 0 20px 0 0;
     }
 }
@@ -65,7 +58,6 @@
     }
     .about-me-box {
         max-width: 790px;
-         /* margin: auto; */
         flex-direction: row;
         justify-content: space-evenly;
     }
@@ -102,5 +94,5 @@
   }
   
   #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #555; 
   }

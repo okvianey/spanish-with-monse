@@ -6,7 +6,7 @@ const Hero = ({ t }) => {
 
   return (
       <section id="hero">
-        <div className="hero-container section">
+        <div className="hero-container">
           <div className="hero-content">
             <h1>
               <Trans i18nKey='main.hero.title'>

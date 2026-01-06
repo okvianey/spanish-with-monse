@@ -1,15 +1,12 @@
 import './AboutMe.css';
 import profilePicture from "../../Assets/images/profile-2.jpg";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-// import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { Trans } from 'react-i18next';
 import { t } from 'i18next';
 
 const AboutMe = () => {
   
   return (
-      <section id="about-me">
+      <section id="about-me" className='section'>
         <div className='about-me-container'>
           <div className='about-me-box'>
             <div className="about-me-picture">
@@ -27,23 +24,6 @@ const AboutMe = () => {
             </div>
           </div>
 
-          {/* <div className='social-icons'>
-            <a className='social-link' 
-              href='mailto:smonse.rr@gmail.com'>
-              <div className='social-icon'>
-                <FontAwesomeIcon className='fa-social-icon' icon={faEnvelope} />
-                <p className='social-text'>smonse.rr@gmail.com</p>
-              </div>
-            </a>
-
-            <a className='social-link' 
-              href='https://api.whatsapp.com/send?phone=529211446166'>
-              <div className='social-icon'>
-                <FontAwesomeIcon className='fa-social-icon' icon={faWhatsapp} />
-                <p className='social-text'>+521 921 144 6166</p>
-              </div>
-            </a>
-          </div> */}
         </div>
       </section>
   )

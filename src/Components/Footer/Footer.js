@@ -42,7 +42,7 @@ const Footer = ({ t }) => {
         <div className="footer-text">
           <p>
             Hecho con café y código por <span><a className="footer-link" href="https://flatlatte.com" target="_blank" rel="noreferrer">
-                @vianydev
+                @okvianey
               </a>
             </span>
           </p>
