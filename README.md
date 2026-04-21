@@ -50,8 +50,4 @@ Users should be able to:
 - [Local Storage](https://blog.logrocket.com/using-localstorage-react-hooks/) - Great article which helped meto handle with local storage for my users login.
 
 
-## Author
-- Twitter - [@vianydev](https://www.twitter.com/vianydev)
-- Linkedin - [@vianydev](https://www.linkedin.com/in/vianydev/)
-- Github - [@vianydev](https://github.com/vianydev)
 
