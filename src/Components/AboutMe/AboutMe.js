@@ -29,7 +29,7 @@ const AboutMe = () => {
                     href={italikiProfileURL} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="btn-shape green-btn"
+                    className="btn-shape outline-purple"
                   >
                     {t("main.aboutMe.visitProfile")}
                   </a>
@@ -37,7 +37,7 @@ const AboutMe = () => {
                     href={whatsappURL} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="btn-shape green-btn"
+                    className="btn-shape purple-btn"
                   >
                     {t("main.aboutMe.messageWhatsapp")}
                   </a>
