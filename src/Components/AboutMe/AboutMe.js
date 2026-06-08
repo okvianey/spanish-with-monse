@@ -26,7 +26,7 @@ const AboutMe = () => {
                   href={italikiProfileURL} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="btn-shape green-btn italki-btn"
+                  className="btn-shape outline-purple italki-btn"
                 >
                   {t("main.aboutMe.visitProfile")}
                 </a>

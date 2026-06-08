@@ -1,5 +1,7 @@
 import ContactForm from "../../Components/Form/ContactForm";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRotateLeft } from '@fortawesome/free-solid-svg-icons';
 
 const TrialClassForm = ({ t }) => {
   return (
@@ -11,21 +13,13 @@ const TrialClassForm = ({ t }) => {
         </div>
 
         <ContactForm />
-
-        {/* <div className="login-link">
-          <p className="terms-conditions">
-            Al crear una cuenta, aceptas nuestros Términos y condiciones.
-            Recibirás correos electrónicos y notificaciones de 'Spanish with
-            Monse' sobre el progreso de tu aprendizaje y sobre nuestros
-            productos y servicios. Puedes darte de baja en cualquier momento de
-            forma gratuita.
-          </p>
-        </div> */}
       </div>
-      <div style={{ margin: '30px 10px 10px 10px' }}>
+      <div style={{ margin: '30px 10px 10px 10px', display: 'flex', justifyContent: 'center' }}>
         <Link
           to='/'
+          style={{ display: 'flex', alignItems: 'center',}}
         >
+          <FontAwesomeIcon icon={faRotateLeft} className="rotate-icon" />
           {t("thanks.back")}
         </Link>
 

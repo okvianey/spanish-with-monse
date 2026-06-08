@@ -13,7 +13,7 @@ const Hero = ({ t }) => {
                 Comienza la <span className="highlight">aventura</span> de aprender Español.
               </Trans>
             </h1>
-            <Link to='/trialClass' className='btn-shape purple-btn btn-mobile'>{heroButton}</Link>
+            <Link to='/trialClass' className='btn-shape outline-purple btn-mobile'>{heroButton}</Link>
           </div>
          <div className="hero-img"></div>
         </div>
