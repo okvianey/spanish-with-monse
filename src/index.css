@@ -1,5 +1,6 @@
 :root {
   --green: #3cdaaf;
+  --green-alpha: hsla(164, 68%, 55%, 0.16);
   --purple: #9d6eff;
   --bg-light-green: #E6FAF8;
   --bg-light-purple: #f2efff63;
@@ -34,7 +35,7 @@
   --general-font: 'Open Sans', sans-serif;
 }
 ::selection {
-  background-color: var(--yellow);
+  background-color: var(--green-alpha);
 }
 html, 
 body {
