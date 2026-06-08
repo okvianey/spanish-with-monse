@@ -110,6 +110,24 @@ export const eng = {
       content:
         "I am Mexican and have been teaching Spanish to both foreigners and natives for over 8 years. Meeting students from other countries and helping them in the adventure of learning a new language is one of my favorite things.",
     },
+    testimonials: {
+      title: "What my <1>students</1> say",
+      testimonial1: {
+        name: "Sarah Johnson",
+        country: "United States",
+        comment: "Monse is an excellent teacher. Her classes are very dynamic and personalized. I've improved my pronunciation significantly in a short time.",
+      },
+      testimonial2: {
+        name: "Lucas Martin",
+        country: "Brazil",
+        comment: "I completely recommend Monse's classes. I learned more in 3 months than in a year at traditional school.",
+      },
+      testimonial3: {
+        name: "Emma Schmidt",
+        country: "Germany",
+        comment: "Very patient and dedicated. Monse adapts perfectly to my learning pace. I'm very satisfied!",
+      },
+    },
   },
 
 };

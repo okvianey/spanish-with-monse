@@ -109,5 +109,23 @@ export const esp = {
       content:
         "Soy mexicana y he sido profesora de español para extranjeros y nativos por más de 8 años. Una de las cosas que más disfruto es conocer estudiantes de diferentes países y ayudarlos en la aventura de aprender un nuevo idioma.",
     },
+    testimonials: {
+      title: "Lo que dicen mis <1>estudiantes</1>",
+      testimonial1: {
+        name: "Sarah Johnson",
+        country: "Estados Unidos",
+        comment: "Monse es una excelente maestra. Sus clases son muy dinámicas y personalizadas. He mejorado mucho mi pronunciación en poco tiempo.",
+      },
+      testimonial2: {
+        name: "Lucas Martin",
+        country: "Brasil",
+        comment: "Recomiendo completamente las clases con Monse. Aprendí más en 3 meses que en un año en la escuela tradicional.",
+      },
+      testimonial3: {
+        name: "Emma Schmidt",
+        country: "Alemania",
+        comment: "Muy paciente y dedicada. Monse se adapta perfectamente a mi ritmo de aprendizaje. ¡Estoy muy satisfecha!",
+      },
+    },
   },
 };
