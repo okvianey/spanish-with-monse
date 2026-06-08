@@ -109,6 +109,7 @@ export const esp = {
       content:
         "Soy mexicana y he sido profesora de español para extranjeros y nativos por más de 8 años. Una de las cosas que más disfruto es conocer estudiantes de diferentes países y ayudarlos en la aventura de aprender un nuevo idioma.",
       visitProfile: "Visita mi perfil de italki",
+      messageWhatsapp: "Mensaje en WhatsApp",
     },
     testimonials: {
       title: "Lo que dicen mis <1>estudiantes</1>",

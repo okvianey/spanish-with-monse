@@ -110,6 +110,7 @@ export const eng = {
       content:
         "I am Mexican and have been teaching Spanish to both foreigners and natives for over 8 years. Meeting students from other countries and helping them in the adventure of learning a new language is one of my favorite things.",
       visitProfile: "Visit my italki profile",
+      messageWhatsapp: "Message on WhatsApp",
     },
     testimonials: {
       title: "What my <1>students</1> say",
