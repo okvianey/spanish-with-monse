@@ -4,6 +4,7 @@ import { Trans } from 'react-i18next';
 import { t } from 'i18next';
 
 const AboutMe = () => {
+  const italikiProfileURL = "https://www.italki.com/en/teacher/1203217?lv=1";
   
   return (
       <section id="about-me" className='section'>
@@ -21,6 +22,14 @@ const AboutMe = () => {
                 </h2>
                 <h3>{t("main.aboutMe.myName")}</h3>
                 <p>{t("main.aboutMe.content")}</p>
+                <a 
+                  href={italikiProfileURL} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="btn-shape green-btn italki-btn"
+                >
+                  {t("main.aboutMe.visitProfile")}
+                </a>
             </div>
           </div>
 

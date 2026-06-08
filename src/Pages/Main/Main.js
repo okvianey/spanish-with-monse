@@ -21,8 +21,8 @@ const Main = ({ t }) => {
         btnDescription={t("buttons.bookYourClass")}
       />
       <Process t={t} />
-      <AboutMe t={t} />
       <Testimonios t={t} />
+      <AboutMe t={t} />
       <Banner 
         title={t("main.banner2.title")}
         description={t("main.banner2.content")} 

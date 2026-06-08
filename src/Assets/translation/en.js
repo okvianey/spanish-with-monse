@@ -109,23 +109,29 @@ export const eng = {
       myName: "My name is Monserrat, but you can call me Monse.",
       content:
         "I am Mexican and have been teaching Spanish to both foreigners and natives for over 8 years. Meeting students from other countries and helping them in the adventure of learning a new language is one of my favorite things.",
+      visitProfile: "Visit my italki profile",
     },
     testimonials: {
       title: "What my <1>students</1> say",
       testimonial1: {
-        name: "Sarah Johnson",
+        name: "Audrey",
         country: "United States",
-        comment: "Monse is an excellent teacher. Her classes are very dynamic and personalized. I've improved my pronunciation significantly in a short time.",
+        comment: "I'll say it again: Monse is an incredible teacher! I've now been taking classes with her for three years (!!!) and can confidently say that she is patient, kind, fun, and wholly dedicated to her students' success. She customizes each class, still puts up with my bad jokes (but they've gotten better, along with my Spanish), and continues to help me understand the reasoning behind new concepts. She's exceptionally organized and comes prepared every time, but pivots easily when I have questions or need extra help. Her encouragement is genuine — and I'm so grateful to have lucked out with a teacher who I now also call a friend!",
       },
       testimonial2: {
-        name: "Lucas Martin",
-        country: "Brazil",
-        comment: "I completely recommend Monse's classes. I learned more in 3 months than in a year at traditional school.",
+        name: "Elaine",
+        country: "Hong Kong",
+        comment: "As a language teacher myself, I know exactly how hard it can be to make a lesson both fun and useful for students. Monse is very patient and motivating, and she brings a lot of positive energy to our classes. At first, I didn’t feel very comfortable speaking Spanish, but in her lessons I always find myself saying more, and she consistently uses Spanish to make the class more immersive. I really appreciate her teaching style and definitely recommend her to other learners!",
       },
       testimonial3: {
-        name: "Emma Schmidt",
+        name: "Alexander",
         country: "Germany",
-        comment: "Very patient and dedicated. Monse adapts perfectly to my learning pace. I'm very satisfied!",
+        comment: "Monse is an excellent teacher. She always encourages me to speak a lot during class, corrects my mistakes with patience, which helps a lot to improve my Spanish. Also, the lessons are very well structured and the optional homework helps me to deepen what I have learned. She has been a great support for me!",
+      },
+      testimonial4: {
+        name: "Lauren",
+        country: "United States",
+        comment: "Classes with Monse are always so fun! When I'm having a bad day, our class always puts a smile on my face. When you are learning Spanish, some days you can speak well and other days you can barely string a sentence together. Either way, Monse is patient, encouraging and fun to talk to.",
       },
     },
   },

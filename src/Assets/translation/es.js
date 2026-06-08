@@ -108,23 +108,29 @@ export const esp = {
       myName: "Mi nombre es Monserrat, pero puedes decirme Monse.",
       content:
         "Soy mexicana y he sido profesora de español para extranjeros y nativos por más de 8 años. Una de las cosas que más disfruto es conocer estudiantes de diferentes países y ayudarlos en la aventura de aprender un nuevo idioma.",
+      visitProfile: "Visita mi perfil de italki",
     },
     testimonials: {
       title: "Lo que dicen mis <1>estudiantes</1>",
       testimonial1: {
-        name: "Sarah Johnson",
+        name: "Audrey",
         country: "Estados Unidos",
-        comment: "Monse es una excelente maestra. Sus clases son muy dinámicas y personalizadas. He mejorado mucho mi pronunciación en poco tiempo.",
+        comment: "Lo diré de nuevo: ¡Monse es una profesora increíble! He estado tomando clases con ella durante tres años (!!!) y puedo decir con confianza que es paciente, amable, divertida y totalmente dedicada al éxito de sus estudiantes. Personaliza cada clase, aún soporta mis malos chistes (pero han mejorado, al igual que mi español) y continúa ayudándome a entender el razonamiento detrás de los nuevos conceptos. Es excepcionalmente organizada y viene preparada cada vez, pero se adapta fácilmente cuando tengo preguntas o necesito ayuda adicional. Su apoyo es genuino, ¡y estoy muy agradecida de haber tenido la suerte de encontrar una profesora que ahora también llamo amiga!",
       },
       testimonial2: {
-        name: "Lucas Martin",
-        country: "Brasil",
-        comment: "Recomiendo completamente las clases con Monse. Aprendí más en 3 meses que en un año en la escuela tradicional.",
+        name: "Elaine",
+        country: "Hong Kong",
+        comment: "Como profesora de idiomas, sé exactamente lo difícil que puede ser hacer que una lección sea tanto divertida como útil para los estudiantes. Monse es muy paciente y motivadora, y aporta mucha energía positiva a nuestras clases. Al principio, no me sentía muy cómoda hablando español, pero en sus lecciones siempre me encuentro diciendo más, y ella usa constantemente el español para hacer la clase más inmersiva. ¡Realmente aprecio su estilo de enseñanza y definitivamente la recomiendo a otros estudiantes!",
       },
       testimonial3: {
-        name: "Emma Schmidt",
+        name: "Alexander",
         country: "Alemania",
-        comment: "Muy paciente y dedicada. Monse se adapta perfectamente a mi ritmo de aprendizaje. ¡Estoy muy satisfecha!",
+        comment: "Monse es una profesora excelente. Ella siempre me anima a hablar mucho durante la clase, corrige mis errores con paciencia, lo que ayuda mucho a mejorar mi español. Además, las lecciones están muy bien estructuradas y las tareas opcionales me ayudan a profundizar en lo que he aprendido. ¡Ella ha sido un gran apoyo para mí!",
+      },
+      testimonial4: {
+        name: "Lauren",
+        country: "Estados Unidos",
+        comment: "¡Las clases con Monse siempre son tan divertidas! Cuando tengo un mal día, nuestra clase siempre me saca una sonrisa. Cuando estás aprendiendo español, algunos días puedes hablar bien y otros días apenas puedes formar una oración. De cualquier manera, Monse es paciente, alentadora y divertida para hablar.",
       },
     },
   },
