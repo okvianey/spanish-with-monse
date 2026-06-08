@@ -1,6 +1,6 @@
 import "./Testimonios.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { Trans } from 'react-i18next';
 
 const Testimonios = ({ t }) => {
@@ -27,13 +27,20 @@ const Testimonios = ({ t }) => {
       rating: 5,
       country: t('main.testimonials.testimonial3.country'),
     },
+    {
+      id: 4,
+      name: t('main.testimonials.testimonial4.name'),
+      comment: t('main.testimonials.testimonial4.comment'),
+      rating: 5,
+      country: t('main.testimonials.testimonial4.country'),
+    },
   ];
 
-  const renderStars = (rating) => {
-    return [...Array(rating)].map((_, i) => (
-      <FontAwesomeIcon key={i} icon={faStar} className="star" />
-    ));
-  };
+  // const renderStars = (rating) => {
+  //   return [...Array(rating)].map((_, i) => (
+  //     <FontAwesomeIcon key={i} icon={faStar} className="star" />
+  //   ));
+  // };
 
   return (
     <section id="testimonios">
@@ -52,9 +59,6 @@ const Testimonios = ({ t }) => {
                   <h4>{testimonial.name}</h4>
                   <p className="country">{testimonial.country}</p>
                 </div>
-              </div>
-              <div className="testimonios-stars">
-                {renderStars(testimonial.rating)}
               </div>
               <p className="testimonios-comment">"{testimonial.comment}"</p>
             </div>
