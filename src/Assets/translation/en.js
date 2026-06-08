@@ -109,6 +109,7 @@ export const eng = {
       myName: "My name is Monserrat, but you can call me Monse.",
       content:
         "I am Mexican and have been teaching Spanish to both foreigners and natives for over 8 years. Meeting students from other countries and helping them in the adventure of learning a new language is one of my favorite things.",
+      visitProfile: "Visit my italki profile",
     },
     testimonials: {
       title: "What my <1>students</1> say",

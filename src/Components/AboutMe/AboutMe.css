@@ -31,6 +31,11 @@
     line-height: 1.7;
 }
 
+.italki-btn {
+    margin-top: 20px;
+    display: inline-flex;
+}
+
 .about-me-picture img {
     max-width: 380px;
     width: 340px;
