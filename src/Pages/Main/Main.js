@@ -4,6 +4,7 @@ import Objetivos from '../../Components/Objetivos/Objetivos';
 import Banner from '../../Components/Banner/Banner';
 import Process from '../../Components/Process/Process';
 import AboutMe from '../../Components/AboutMe/AboutMe';
+import Testimonios from '../../Components/Testimonios/Testimonios';
 
 const Main = ({ t }) => {
 
@@ -21,6 +22,7 @@ const Main = ({ t }) => {
       />
       <Process t={t} />
       <AboutMe t={t} />
+      <Testimonios t={t} />
       <Banner 
         title={t("main.banner2.title")}
         description={t("main.banner2.content")} 

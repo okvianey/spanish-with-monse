@@ -1,0 +1,122 @@
+#testimonios {
+  background: var(--white);
+  padding: 60px 0;
+}
+
+#testimonios h2 {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.testimonios-container {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.testimonios-box-container {
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.testimonios-box {
+  max-width: 300px;
+  min-height: 250px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: var(--light-gray);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonios-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.testimonios-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.testimonios-info h4,
+.testimonios-info p {
+  margin: 0;
+  text-align: left;
+}
+
+.testimonios-info h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--dark-gray);
+}
+
+.testimonios-info p.country {
+  font-size: 13px;
+  color: var(--gray);
+  margin-top: 5px;
+}
+
+.testimonios-stars {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.testimonios-stars .star {
+  color: var(--green);
+  font-size: 16px;
+}
+
+.testimonios-comment {
+  font-size: 14px;
+  color: var(--dark-gray);
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
+}
+
+@media only screen and (min-width: 620px) {
+  .testimonios-box-container {
+    flex-flow: row wrap;
+    gap: 30px;
+  }
+
+  .testimonios-container {
+    width: 85%;
+    margin: auto;
+  }
+
+  .testimonios-container h2 {
+    align-self: flex-start;
+  }
+
+  .testimonios-box {
+    flex: 1 1 calc(50% - 15px);
+    min-width: 280px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .testimonios-box {
+    flex: 1 1 calc(33.33% - 20px);
+    min-width: 280px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .testimonios-box-container {
+    width: 1355px;
+  }
+}
