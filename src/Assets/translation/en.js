@@ -3,7 +3,7 @@ export const eng = {
     bookTrialClass: "Book a trial class",
     backHome: "Home",
     loginAccount: "Log in your account",
-    bookClass: "Book a free trial class",
+    bookClass: "Book your free trial class",
     bookYourClass: "Book your class",
     registerFor: "Register for a free class",
     createAccount: "Create account"
@@ -50,65 +50,78 @@ export const eng = {
   },
   main: {
     hero: {
-      title: "Begin your <1>adventure</1> to learn Spanish",
+      title: "Speak Spanish with <1>confidence</1> — from your very first class",
+      description: "Private online lessons with a Mexican teacher and over 8 years of experience. Learn at your own pace, on the topics that matter to you.",
     },
     benefits: {
       title:
-        "Take advantage of the <1>benefits</1> of learning Spanish with private online lessons.",
+        "Enjoy the <1>benefits</1> of learning Spanish in private online lessons.",
       Rhythm: "Follow your rhythm",
-      RhythmText: "Every class is customized to your preferred speed.",
-      Conversations: "Real-world conversations",
+      RhythmText: "Your pace, your schedule — no pressure to keep up with a group.",
       "Conversations text":
-        "Expand your vocabulary by practicing with actual discussions on subjects that interest you.",
+        "Conversations about what matters to you — travel, work, family, whatever you like.",
       Place: "Whenever you are",
       PlaceText:
-        "From anywhere in the world, increase your language roficiency.",
-      Plan: "Plan your objectives",
-      PlanText: "Spend the time to advance in your areas of interest.",
+        "Learn from anywhere in the world — all you need is an internet connection.",
+      PlanText: "A plan built for you, not a one-size-fits-all program.",
       Topics: "Topics you're interested in",
       TopicsText:
-        "Use things you are interested in to make studying more enjoyable.",
+        "Learn through topics you already enjoy — Spanish becomes the tool, not the obstacle.",
       Questions: "Answer yourquestions",
-      QuestionsText: "You can clarify anything that was unclear by asking.",
+      QuestionsText: 'Ask anything, without feeling like "the one who didn\'t get it".',
     },
     goals: {
-      title: "Classes with a <1>goal-oriented</1> focus.",
+      title: "Every lesson is built around your <1>goal</1>.",
       subtitle:
-        "Choose the objective you're interested in achieving before moving on to the next step.",
+        "Which one is yours?",
       beginner:
-        "Start learning the basics of Spanish language as soon as possible.",
-      perfectForYou: "Perfect for you",
+        "Learn to communicate in Spanish from scratch — in a practical way, without getting overwhelmed by rules. We start with what you actually need to say today.",
       beginnerList:
-        "<1>It is your first attempt at learning Spanish.</1><1>You know some of it, but you don't understand the grammar.<1/>",
+        "<1>It's your first time trying to learn Spanish.</1>\
+        <1>You understand a little, but grammar feels like a mystery.<1/>",
       conversation:
-        "Enhance your ability to express yourself, expand your vocabulary, and improve your pronunciation while having fun.",
+        "You know some Spanish, but when it's time to speak, the words don't come. That's exactly what we work on: getting your ideas out — naturally and confidently.",
       conversationList:
-        "<1>You know the basics however, expressing yourself may be tough.</1><1>You want to discuss specialized or technical topics.</1>",
+        "<1>You have the basics, but struggle to hold a real conversation.</1>\
+        <1>You freeze up when you try to express your ideas.</1>\
+        <1>You want to practice topics from everyday life.</1>",
       nextLevel:
-        "We will work together to improve your Spanish skills, whether it be better pronunciation, reading or writing complex texts, expanding your vocabulary, or anything else.",
+        'Your Spanish works — but you want more: better pronunciation, complex texts, specialized vocabulary. We\'ll define together what "the next level" looks like for you.',
       nextLevelList:
-        "<1>You've already taken classes and want to keep going.</1><1>You require a specific level (A1, A2, B1, B2).</1><1>You want to improve your Spanish.</1>",
+        "<1>You get by just fine, but want to sound more natural.</1>\
+        <1>You want to discuss specialized or technical topics.</1>\
+        <1>You're working on pronunciation, writing, or comprehension.</1>",
     },
     banner1: {
-      title: "Take the first step by booking a trial class.",
-      content: "Find out what a class is like and clear up some questions.",
+      title: "Still not sure? Start with a free lesson.",
+      content: "No long forms, no credit card — just 30 minutes to see what this is all about.",
     },
     banner2: {
-      title: "Still hesitant about starting private lessons?",
+      title: "Still not sure?",
       content:
-        "Schedule a free 30-minutes class to answer your questions and clear up any confusion.",
+        "That's okay. That's exactly why the first lesson is free. No long forms, no credit card — just 30 minutes to see how we work and decide when you're ready.",
+    },
+    trustBar: {
+      title: "Over 8 years of teaching Spanish to students around the world",
+      1: "5,000+",
+      label1: "lessons taught online",
+      2: "1,800+",
+      label2: "lessons taught on italki",
+      3: "5.0",
+      label3: "rating on italki",
+      button: "View reviews on italki",
     },
     howToStart: {
-      title: "How to <1>start</1>?",
-      1: "Register and choose your goal",
-      2: "Reserve your trial class.",
-      3: "Select your preferred lesson plan.",
+      title: "Getting started is <1>easier</1> than you think. Just three steps:",
+      1: "Tell me what you want to achieve",
+      2: "Book your trial lesson",
+      3: "Choose the plan that works for you",
     },
     aboutMe: {
-      hello: "¡Hola!",
-      myName: "My name is Monserrat, but you can call me Monse.",
+      title: "¡Hola! my name is Monserrat, but you can call me Monse.",
+      intro: "I am Spanish teacher, Mexican, and someone who once got stranded on a ship in the Caribbean with 300 people from 65 countries — and no internet. That experience taught me that connecting with someone in their language is worth more than any certificate.",
       content:
-        "I am Mexican and have been teaching Spanish to both foreigners and natives for over 8 years. Meeting students from other countries and helping them in the adventure of learning a new language is one of my favorite things.",
+        "I've been teaching Spanish online for over 8 years, shaping every lesson around the person in front of me: their pace, their goals, their way of learning. Not sure where to start? Finding that path together is part of the job.",
       visitProfile: "Visit my italki profile",
       messageWhatsapp: "Message on WhatsApp",
     },

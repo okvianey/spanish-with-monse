@@ -45,23 +45,6 @@ const Testimonios = ({ t }) => {
   return (
     <section id="testimonios">
       <div className="testimonios-container">
-        <div className="stats-container">
-          <div className="stat-card">
-            <span>500+</span>
-            <p>Classes taught</p>
-          </div>
-
-          <div className="stat-card">
-            <span>5.0</span>
-            <p>Average rating</p>
-          </div>
-
-          <div className="stat-card">
-            <span>15+</span>
-            <p>Countries</p>
-          </div>
-        </div>
-
         <h2>
           <Trans i18nKey="main.testimonials.title">
             Lo que dicen mis <span className="highlight">estudiantes</span>
@@ -73,8 +56,13 @@ const Testimonios = ({ t }) => {
             <div key={testimonial.id} className="testimonios-box">
               <div className="testimonios-header">
                 <div className="testimonios-info">
-                  <h4>{testimonial.name}</h4>
-                  <p className="country">{testimonial.country}</p>
+                  <div className="testimonial-avatar">
+                    {testimonial.name[ 0 ]}
+                  </div>
+                  <div className="testimonios-name">
+                    <h4>{testimonial.name}</h4>
+                    <p className="country">{testimonial.country}</p>
+                  </div>
                 </div>
               </div>
               <p className="testimonios-comment">"{testimonial.comment}"</p>

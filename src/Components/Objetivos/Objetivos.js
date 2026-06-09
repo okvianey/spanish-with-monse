@@ -7,22 +7,21 @@ import { Trans } from 'react-i18next';
 
 const Objetivos = ({ t }) => {
 return (
-    <section id="objetivos"  data-scroll>
-        <div className="objetivos-container">
-            <div className="objetivos-title">
+    <section id="objetivos" className="section" data-scroll>
+        <div className="container">
+            <div className="title">
                 <h2 data-splitting>
                     <Trans i18nKey={"main.goals.title"}>
                         Clases totalmente enfocadas en alcanzar tus <span className="highlight">objetivos</span>.
                     </Trans>
                 </h2>
-                <h3>{t("main.goals.subtitle")}</h3>
             </div>
             <div className="objetivos-container-box">
                 <div className="objetivos-box">
                     <div className="objetivos-box-content">
                         <div className="objetivos-img">
-                            <FontAwesomeIcon 
-                                className="icon-objetivos" 
+                            <FontAwesomeIcon
+                                className="icon-objetivos"
                                 icon={faRocket}
                             />
                         </div>

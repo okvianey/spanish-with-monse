@@ -3,7 +3,7 @@ export const esp = {
     bookTrialClass: "Reservar una clase",
     backHome: "Inicio",
     loginAccount: "Ingresar a tu cuenta",
-    bookClass: "Reserva una clase gratis",
+    bookClass: "Reserva tu clase gratis",
     bookYourClass: "Reserva tu clase",
     registerFor: "Registrate para una clase gratis",
     createAccount: "Crear cuenta",
@@ -50,64 +50,75 @@ export const esp = {
   },
   main: {
     hero: {
-      title: "Comienza la <1>aventura</1> de aprender español",
+      title: "Habla español con <1>confianza</1> — desde tu primer clase",
+      description: "Clases privadas en línea con una maestra mexicana con más de 8 años de experiencia. Aprende a tu ritmo, sobre los temas que te interesan.",
     },
     benefits: {
       title:
         "Disfruta de los <1>beneficios</1> de aprender español con clases privadas en línea.",
       Rhythm: "Avanza a tu ritmo",
-      RhythmText: "Cada clase es adaptada a la velocidad que tu prefieras.",
+      RhythmText: "Tu ritmo, tu agenda — sin presión de seguir a un grupo.",
       Conversations: "Conversaciones reales",
       ConversationsText:
-        "Practica con conversaciones reales sobre temas que te interesen y amplía tu vocabulario.",
+        "Conversaciones sobre lo que te importa — viajes, trabajo, familia, lo que sea.",
       Place: "Desde cualquier lugar",
       PlaceText:
-        "Mejora tu fluidez en el idioma desde cualquier parte del mundo.",
+        "Desde cualquier lugar del mundo, con solo una conexión a internet.",
       Plan: "Define tus objetivos",
-      PlanText: "Aprovecha el tiempo para mejorar las áreas que te interesen.",
+      PlanText: "Un plan hecho para ti, no un programa genérico.",
       Topics: "Temas de tu interés",
-      TopicsText: "Mejora tu experiencia aprendiendo con temas que te gustan.",
+      TopicsText: "Aprende con temas que ya te gustan — el idioma se vuelve el medio, no el obstáculo.",
       Questions: "Resuelve tus dudas",
-      QuestionsText: "Si algo no queda claro, puedes preguntar.",
+      QuestionsText: 'Puedes preguntar lo que sea, sin sentirte "el que no entendió".',
     },
     goals: {
-      title: "Clases totalmente enfocadas en alcanzar tus <1>objetivos</1>.",
+      title: "Clases totalmente enfocadas en alcanzar tus <1>objetivos</1>. ",
       subtitle:
-        "Para dar el siguiente paso, selecciona cuál es el objetivo que te interesa alcanzar.",
+        "¿Cuál es el tuyo?",
       beginner:
-        "Comienza con las bases para comunicarte en español lo más pronto posible, de manera sencilla y práctica.",
+        "Aprende a comunicarte en español desde cero, de forma práctica y sin abrumarte. Empezamos por lo que necesitas decir hoy.",
       perfectForYou: "Ideal para ti",
       beginnerList:
         "<1>Es tu primera vez intentando aprender español.</1><1>Entiendes un poco, pero no conoces la gramática.<1/>",
       conversation:
-        "Mejora tu habilidad para expresarte, expande tu vocabulario, mejora tu pronunciación y diviértete en el trayecto.",
+        "Ya entiendes algo de español, pero cuando quieres hablar, las palabras no salen. Trabajamos exactamente eso: que puedas expresarte con soltura en situaciones reales.",
       conversationList:
-        "<1>Tienes las bases, pero te cuesta comunicarte.</1><1>Te cuesta expresar tus ideas.</1><1>Quieres hablar de temas especializados o técnicos.</1>",
+        "<1>Tienes las bases, pero te cuesta comunicarte.</1><1>Te cuesta expresar tus ideas con fluidez.</1><1>Quieres practicar temas de la vida cotidiana.</1>",
       nextLevel:
-        "Trabajaremos juntos para alcanzar el siguiente nivel en tu español, ya sea pronunciar mejor, leer o escribir textos complejos, ampliar tu vocabulario, etc.",
+        'Tu español funciona, pero quieres más: mejor pronunciación, textos más complejos, vocabulario especializado. Definimos juntos qué significa "el siguiente nivel" para ti.',
       nextLevelList:
-        "<1>Anteriormente has tomado clases y quieres continuar.</1><1>Buscas un nivel específico (A1, A2, B1, B2).</1><1>Quieres mejorar tu español.</1>",
+        "<1>Ya te comunicas bien, pero quieres sonar más natural.</1><1>•	Quieres hablar de temas especializados o técnicos.</1><1>•	Buscas mejorar pronunciación, redacción o comprensión.</1>",
     },
     banner1: {
-      title: "Da el primer paso, reserva una clase muestra",
-      content: "Descubre cómo es una clase y resuelve tus dudas",
+      title: "¿Todavía tienes dudas?",
+      content: "Empieza con una clase gratis. Sin formularios largos, sin tarjeta de crédito — solo 30 minutos para que veas de qué va esto.",
     },
     banner2: {
-      title: "¿Aún no estás seguro de comenzar tus clases privadas?",
+      title: "¿Todavía tienes dudas?",
       content:
-        "Agenda una clase de 30 minutos totalmente gratuita y resuelve todas tus dudas.",
+        "Totalmente normal. La primera clase es gratis para que veas cómo trabajamos y decidas cuando estés listo.",
+    },
+    trustBar: {
+      title: "Más de 8 años enseñando español a estudiantes de todo el mundo",
+      1: "+5,000",
+      label1: "clases impartidas en linea",
+      2: "+1,800",
+      label2: "clases impartidas en italki",
+      3: "5.0",
+      label3: "calificación en italki",
+      button: "Ver reseñas en italki",
     },
     howToStart: {
-      title: "¿Cómo <1>comenzar</1> tus clases?",
-      1: "Selecciona tu objetivo",
+      title: "Empezar es más <1>fácil</1> de lo que crees. Solo tres pasos:",
+      1: "Dime qué quieres lograr",
       2: "Reserva tu clase muestra",
       3: "Elige el plan de clases que prefieras",
     },
     aboutMe: {
-      hello: "¡Hola!",
-      myName: "Mi nombre es Monserrat, pero puedes decirme Monse.",
+      title: "¡Hola! mi nombre es Monserrat, pero puedes decirme Monse.",
+      intro: "Soy maestra de español, mexicana, y alguien que alguna vez estuvo varada en un barco en el Caribe con 300 personas de 65 países distintos — sin internet. De esa experiencia aprendí que conectar con alguien en su idioma vale más que cualquier certificado.",
       content:
-        "Soy mexicana y he sido profesora de español para extranjeros y nativos por más de 8 años. Una de las cosas que más disfruto es conocer estudiantes de diferentes países y ayudarlos en la aventura de aprender un nuevo idioma.",
+        "Llevo más de 8 años enseñando español online, adaptando cada clase a la persona que tengo enfrente: su ritmo, sus metas, su forma de aprender. Si no sabes por dónde empezar, esa también es mi chamba — juntos lo encontramos.",
       visitProfile: "Visita mi perfil de italki",
       messageWhatsapp: "Mensaje en WhatsApp",
     },

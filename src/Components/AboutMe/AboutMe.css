@@ -1,5 +1,6 @@
 .about-me-box {
-    padding: 30px 15px;
+    /* padding: 30px 15px; */
+    padding: 50px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -8,10 +9,10 @@
 
     background-color: var(--bg-light-gray);
     border-radius: 10px;
-    /* box-shadow: var(--shadow2); */
 }
 .about-me-text {
-    width: 90%;
+    /* width: 90%; */
+    max-width: 600px;
 }
 .about-me-text h2, 
 .about-me-text h3,
@@ -19,7 +20,8 @@
     text-align: left;
 }
 .about-me-text h2 {
-    max-width: 40%;
+    max-width: none;
+    /* max-width: 40%; */
     margin-bottom: 5px;
 }
 .about-me-text h3 {

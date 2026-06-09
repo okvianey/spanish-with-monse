@@ -17,12 +17,10 @@ const AboutMe = () => {
                     alt="profile" />
             </div>
             <div className="about-me-text">
-                <h2 className='highlight'>
-                  <Trans i18nKey={"main.aboutMe.hello"}>
-                    ¡Hola!
-                  </Trans>
-                </h2>
-                <h3>{t("main.aboutMe.myName")}</h3>
+                <h3>
+                  {t("main.aboutMe.title")}
+                </h3>
+                <p>{t("main.aboutMe.intro")}</p>
                 <p>{t("main.aboutMe.content")}</p>
                 <div className="about-me-buttons">
                   <a 
