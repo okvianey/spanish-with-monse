@@ -45,12 +45,29 @@ const Testimonios = ({ t }) => {
   return (
     <section id="testimonios">
       <div className="testimonios-container">
+        <div className="stats-container">
+          <div className="stat-card">
+            <span>500+</span>
+            <p>Classes taught</p>
+          </div>
+
+          <div className="stat-card">
+            <span>5.0</span>
+            <p>Average rating</p>
+          </div>
+
+          <div className="stat-card">
+            <span>15+</span>
+            <p>Countries</p>
+          </div>
+        </div>
+
         <h2>
-          <Trans i18nKey='main.testimonials.title'>
+          <Trans i18nKey="main.testimonials.title">
             Lo que dicen mis <span className="highlight">estudiantes</span>
           </Trans>
         </h2>
-        
+
         <div className="testimonios-box-container">
           {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="testimonios-box">
@@ -64,9 +81,20 @@ const Testimonios = ({ t }) => {
             </div>
           ))}
         </div>
+
+        <div className="italki-cta">
+          <p>See more reviews from students around the world.</p>
+          <a
+            href="PERFIL_ITALKI"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View italki profile
+          </a>
+        </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Testimonios;
