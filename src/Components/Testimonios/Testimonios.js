@@ -1,6 +1,4 @@
 import "./Testimonios.css";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { Trans } from 'react-i18next';
 
 const Testimonios = ({ t }) => {
@@ -36,15 +34,9 @@ const Testimonios = ({ t }) => {
     },
   ];
 
-  // const renderStars = (rating) => {
-  //   return [...Array(rating)].map((_, i) => (
-  //     <FontAwesomeIcon key={i} icon={faStar} className="star" />
-  //   ));
-  // };
-
   return (
-    <section id="testimonios">
-      <div className="testimonios-container">
+    <section id="testimonios" className="section">
+      <div className="testimonios-container container">
         <h2>
           <Trans i18nKey="main.testimonials.title">
             Lo que dicen mis <span className="highlight">estudiantes</span>
@@ -71,13 +63,14 @@ const Testimonios = ({ t }) => {
         </div>
 
         <div className="italki-cta">
-          <p>See more reviews from students around the world.</p>
+          <p>{t('main.testimonials.calltoaction')}</p>
           <a
-            href="PERFIL_ITALKI"
+            href="https://www.italki.com/en/teacher/1203217"
             target="_blank"
             rel="noopener noreferrer"
+            className="btn-shape outline-purple"
           >
-            View italki profile
+            {t('buttons.verItalki')}
           </a>
         </div>
       </div>

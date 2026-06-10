@@ -6,86 +6,86 @@ import { faArrowUpRightDots } from '@fortawesome/free-solid-svg-icons';
 import { Trans } from 'react-i18next';
 
 const Objetivos = ({ t }) => {
-return (
-    <section id="objetivos" className="section" data-scroll>
-        <div className="container">
-            <div className="title">
-                <h2 data-splitting>
-                    <Trans i18nKey={"main.goals.title"}>
-                        Clases totalmente enfocadas en alcanzar tus <span className="highlight">objetivos</span>.
-                    </Trans>
-                </h2>
+    return (
+        <section id="objetivos" className="section" data-scroll>
+            <div className="container">
+                <div className="title">
+                    <h2 data-splitting>
+                        <Trans i18nKey={"main.goals.title"}>
+                            Clases totalmente enfocadas en alcanzar tus <span className="highlight">objetivos</span>.
+                        </Trans>
+                    </h2>
+                </div>
+                <div className="objetivos-container-box">
+                    <div className="objetivos-box">
+                        <div className="objetivos-box-content">
+                            <div className="objetivos-box-icon">
+                                <FontAwesomeIcon
+                                    className="objetivos-icon"
+                                    icon={faRocket}
+                                />
+                            </div>
+                            <div className="objetivos-text">
+                                <h4>{t("form.beginner")}</h4>
+                                <p>{t("main.goals.beginner")}</p>
+                            </div>
+                            <div className="objetivos-list">
+                                <p>{t("main.goals.perfectForYou")}</p>
+                                <ul>
+                                    <Trans i18nKey={"main.goals.beginnerList"}>
+                                        <li></li>
+                                        <li></li>
+                                    </Trans>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="objetivos-box">
+                        <div className="objetivos-box-content">
+                            <div className="objetivos-box-icon">
+                                <FontAwesomeIcon className="objetivos-icon" icon={faMessage} />
+                            </div>
+                            <div className="objetivos-text">
+                                <h4>{t("form.conversation")}</h4>
+                                <p>{t("main.goals.conversation")}</p>
+                            </div>
+                            <div className="objetivos-list">
+                                <p>{t("main.goals.perfectForYou")}</p>
+                                <ul>
+                                    <Trans i18nKey={"main.goals.conversationList"}>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                    </Trans>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="objetivos-box">
+                        <div className="objetivos-box-content">
+                            <div className="objetivos-box-icon">
+                                <FontAwesomeIcon className="objetivos-icon" icon={faArrowUpRightDots} />
+                            </div>
+                            <div className="objetivos-text">
+                                <h4>{t("form.nextLevel")}</h4>
+                                <p>{t("main.goals.nextLevel")}</p>
+                            </div>
+                            <div className="objetivos-list">
+                                <p>{t("main.goals.perfectForYou")}</p>
+                                <ul>
+                                    <Trans i18nKey={"main.goals.nextLevelList"}>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                    </Trans>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="objetivos-container-box">
-                <div className="objetivos-box">
-                    <div className="objetivos-box-content">
-                        <div className="objetivos-img">
-                            <FontAwesomeIcon
-                                className="icon-objetivos"
-                                icon={faRocket}
-                            />
-                        </div>
-                        <div className="objetivos-text">
-                            <h4>{t("form.beginner")}</h4>
-                            <h6>{t("main.goals.beginner")}</h6>
-                        </div>
-                        <div className="objetivos-list">
-                            <p>{t("main.goals.perfectForYou")}</p>
-                            <ul>
-                                <Trans i18nKey={"main.goals.beginnerList"}>
-                                    <li>Es tu primera vez intentando aprender Español.</li>
-                                    <li>Entiendes un poco, pero no conoces la gramática.</li>
-                                </Trans>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div className="objetivos-box">
-                    <div className="objetivos-box-content">
-                        <div className="objetivos-img">
-                            <FontAwesomeIcon className="icon-objetivos" icon={faMessage} />
-                        </div>
-                        <div className="objetivos-text">
-                            <h4>{t("form.conversation")}</h4>
-                            <h6>{t("main.goals.conversation")}</h6>
-                        </div>
-                        <div className="objetivos-list">
-                            <p>{t("main.goals.perfectForYou")}</p>
-                            <ul>
-                                <Trans i18nKey={"main.goals.conversationList"}>
-                                    <li>Tienes las bases, pero te cuesta comunicarte.</li>
-                                    <li>Te cuesta expresar tus ideas.</li>
-                                    <li>Quieres hablar de temas especializados o técnicos.</li>
-                                </Trans>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div className="objetivos-box">
-                    <div className="objetivos-box-content">
-                        <div className="objetivos-img">
-                            <FontAwesomeIcon className="icon-objetivos" icon={faArrowUpRightDots} />
-                        </div>
-                        <div className="objetivos-text">
-                            <h4>{t("form.nextLevel")}</h4>
-                            <h6>{t("main.goals.nextLevel")}</h6>
-                        </div>
-                        <div className="objetivos-list">
-                            <p>{t("main.goals.perfectForYou")}</p>
-                            <ul>
-                                <Trans i18nKey={"main.goals.conversationList"}>
-                                    <li>Anteriormente has tomado clases y quieres continuar.</li>
-                                    <li>Buscas un nivel específico (A1, A2, B1, B2).</li>
-                                    <li>Quieres mejorar tu español.</li>
-                                </Trans>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-  )
+        </section>
+    )
 }
 
 export default Objetivos;

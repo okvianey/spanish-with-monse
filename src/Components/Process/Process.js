@@ -15,15 +15,15 @@ const Process = ({ t }) => {
           {/* </div> */}
           <div className="process-box-container">
             <div className="process-box">
-              <p className="process-number highlight">1</p>
+              <h1 className="process-number highlight">1</h1>
               <p className='process-text'>{t("main.howToStart.1")}</p>
             </div>
             <div className="process-box">
-              <p className="process-number highlight">2</p>
+              <h1 className="process-number highlight">2</h1>
               <p className='process-text'>{t("main.howToStart.2")}</p>
             </div>
             <div className="process-box">
-              <p className="process-number highlight">3</p>
+              <h1 className="process-number highlight">3</h1>
             <p className='process-text'>{t("main.howToStart.3")}</p>
             </div>
           </div>

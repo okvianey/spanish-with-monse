@@ -1,84 +1,115 @@
 .about-me-box {
-    /* padding: 30px 15px; */
-    padding: 50px;
+    padding: 20px;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    gap: 20px;
     align-items: center;
-
+    justify-content: center;
     background-color: var(--bg-light-gray);
     border-radius: 10px;
+    /* móvil */
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "picture"
+        "text"
+        "buttons";
 }
+
+.about-me-picture {
+    grid-area: picture;
+    text-align: center;
+}
+
 .about-me-text {
-    /* width: 90%; */
+    grid-area: text;
     max-width: 600px;
 }
-.about-me-text h2, 
+
+.about-me-buttons {
+    grid-area: buttons;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.about-me-text,
+.about-me-buttons {
+    margin: auto;
+    width: 80%;
+}
+
+
+.about-me-text h2,
 .about-me-text h3,
 .about-me-text p {
     text-align: left;
 }
-.about-me-text h2 {
-    max-width: none;
-    /* max-width: 40%; */
-    margin-bottom: 5px;
-}
-.about-me-text h3 {
-    margin: 5px 0;
-    line-height: 1.5;
-}
+
 .about-me-text p {
-    margin: 0;
     line-height: 1.7;
-}
-
-.about-me-buttons {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: flex-start;
-    /* justify-content: center; */
-}
-
-.about-me-buttons a {
-    display: inline-flex;
 }
 
 .about-me-picture img {
     max-width: 380px;
-    width: 340px;
 }
 
-@media only screen and (min-width: 620px){
-    .about-me-text h2 {
-        max-width: 50%;
-        margin-bottom: 10px;
-        margin-top: 0px;
+@media only screen and (min-width: 650px) {
+    .about-me-box {
+        padding: 40px;
+        max-width: 600px;
     }
+
+    .about-me-text,
     .about-me-buttons {
-        flex-direction: row;
-        gap: 15px;
+        width: 100%;
     }
-    .social-icons {
-        margin: 50px 60px;
-        display: flex;
-        justify-content: space-evenly;
+
+    .about-me-buttons {
+        justify-content: center;
     }
-    .about-me-picture img {
-        margin: 0 20px 0 0;
+
+}
+
+@media only screen and (min-width: 900px) {
+    .about-me-box {
+        max-width: 900px;
+        grid-template-columns: 380px 1fr;
+        grid-template-areas:
+            "picture text"
+            "buttons text";
+        align-items: start;
+    }
+
+    .about-me-picture {
+        justify-self: center;
+    }
+
+    .about-me-buttons {
+        justify-content: center;
+    }
+    .about-me-text {
+        align-self: start;   
+    }
+    .about-me-text > *:first-child {
+    margin-top: 0;
+}
+
+
+    .about-me-text h3 {
+        margin-top: 0;
+        margin-bottom: 10px;
     }
 }
-@media only screen and (min-width: 650px){
+
+/* @media only screen and (min-width: 990px){
     .about-me-container {
         max-width: 1100px;
         margin: auto;
     }
     .about-me-box {
         max-width: 790px;
-        flex-direction: row;
-        justify-content: space-evenly;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
     }
     .about-me-text {
         max-width: 420px;
@@ -86,32 +117,39 @@
     .social-icons {
         margin: 50px 80px;
     }
-}
-
-@media only screen and (min-width: 950px){
-    .social-icons {
-        margin: 50px 240px;
-    }
-}
+} */
 
 
 /* Scroll top button */
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-  }
-  
-  #myBtn:hover {
-    background-color: #555; 
-  }
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: red;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+}

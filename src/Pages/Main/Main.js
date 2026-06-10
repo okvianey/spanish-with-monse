@@ -29,7 +29,7 @@ const Main = ({ t }) => {
         title={t("main.banner2.title")}
         description={t("main.banner2.content")} 
         bgColor="var(--black)"
-        btnColor="btn-shape green-btn"
+        btnColor="btn-shape purple-btn"
         btnDescription={t("buttons.bookClass")}
       />
     </main>

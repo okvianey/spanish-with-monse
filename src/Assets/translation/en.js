@@ -6,7 +6,11 @@ export const eng = {
     bookClass: "Book your free trial class",
     bookYourClass: "Book your class",
     registerFor: "Register for a free class",
-    createAccount: "Create account"
+    createAccount: "Create account",
+    verItalki: "View my italki profile",
+    visitaMiPerfil: "Visit my italki profile",
+    perfilItalki: "italki Profile",
+    mensajeWhatsapp: "Message on WhatsApp",
   },
   nav: {
     howToStart: "How to start?",
@@ -50,56 +54,69 @@ export const eng = {
   },
   main: {
     hero: {
-      title: "Speak Spanish with <1>confidence</1> — from your very first class",
-      description: "Private online lessons with a Mexican teacher and over 8 years of experience. Learn at your own pace, on the topics that matter to you.",
+      title:
+        "Speak Spanish with <1>confidence</1> from your very first class",
+      description:
+        "Private online lessons. Learn at your own pace, on the topics that matter to you.",
     },
     benefits: {
       title:
         "Enjoy the <1>benefits</1> of learning Spanish in private online lessons.",
-      Rhythm: "Follow your rhythm",
-      RhythmText: "Your pace, your schedule — no pressure to keep up with a group.",
-      "Conversations text":
-        "Conversations about what matters to you — travel, work, family, whatever you like.",
-      Place: "Whenever you are",
+      Rhythm:
+        "Follow your rhythm",
+      RhythmText:
+        "Your pace, your schedule, no pressure to keep up with a group.",
+      Conversationstext:
+        "Conversations about what matters to you: travel, work, family, whatever you like.",
+      Place:
+        "Whenever you are",
       PlaceText:
-        "Learn from anywhere in the world — all you need is an internet connection.",
-      PlanText: "A plan built for you, not a one-size-fits-all program.",
-      Topics: "Topics you're interested in",
+        "Learn from anywhere in the world, all you need is an internet connection.",
+      PlanText:
+        "A plan built for you, not a one-size-fits-all program.",
+      Topics:
+        "Topics you're interested in",
       TopicsText:
-        "Learn through topics you already enjoy — Spanish becomes the tool, not the obstacle.",
-      Questions: "Answer yourquestions",
-      QuestionsText: 'Ask anything, without feeling like "the one who didn\'t get it".',
+        "Learn through topics you already enjoy. Spanish becomes the tool, not the obstacle.",
+      Questions:
+        "Answer your questions",
+      QuestionsText:
+        'Ask anything, without feeling like "the one who didn\'t get it".',
     },
     goals: {
-      title: "Every lesson is built around your <1>goal</1>.",
+      title:
+        "Every lesson is built around your <1>goal</1>",
       subtitle:
         "Which one is yours?",
       beginner:
         "Learn to communicate in Spanish from scratch — in a practical way, without getting overwhelmed by rules. We start with what you actually need to say today.",
       beginnerList:
-        "<1>It's your first time trying to learn Spanish.</1>\
-        <1>You understand a little, but grammar feels like a mystery.<1/>",
+        `<1>It's your first time trying to learn Spanish.</1>
+        <1>You understand a little, but grammar feels like a mystery.<1/>`,
       conversation:
         "You know some Spanish, but when it's time to speak, the words don't come. That's exactly what we work on: getting your ideas out — naturally and confidently.",
       conversationList:
-        "<1>You have the basics, but struggle to hold a real conversation.</1>\
-        <1>You freeze up when you try to express your ideas.</1>\
-        <1>You want to practice topics from everyday life.</1>",
+        `<1>You have the basics, but struggle to hold a real conversation.</1>
+        <1>You freeze up when you try to express your ideas.</1>
+        <1>You want to practice topics from everyday life.</1>`,
       nextLevel:
         'Your Spanish works — but you want more: better pronunciation, complex texts, specialized vocabulary. We\'ll define together what "the next level" looks like for you.',
       nextLevelList:
-        "<1>You get by just fine, but want to sound more natural.</1>\
-        <1>You want to discuss specialized or technical topics.</1>\
-        <1>You're working on pronunciation, writing, or comprehension.</1>",
+        `<1>You get by just fine, but want to sound more natural.</1>
+        <1>You want to discuss specialized or technical topics.</1>
+        <1>You're working on pronunciation, writing, or comprehension.</1>`,
     },
     banner1: {
-      title: "Still not sure? Start with a free lesson.",
-      content: "No long forms, no credit card — just 30 minutes to see what this is all about.",
+      title:
+        "Still not sure? Start with a free lesson",
+      content:
+        "No long forms, no credit card — just 30 minutes to see what this is all about.",
     },
     banner2: {
-      title: "Still not sure?",
+      title:
+        "Still not sure?",
       content:
-        "That's okay. That's exactly why the first lesson is free. No long forms, no credit card — just 30 minutes to see how we work and decide when you're ready.",
+        "That's okay. That's exactly why the first lesson is free. No long forms, no credit card, just 30 minutes to see how we work and decide when you're ready.",
     },
     trustBar: {
       title: "Over 8 years of teaching Spanish to students around the world",
@@ -118,15 +135,20 @@ export const eng = {
       3: "Choose the plan that works for you",
     },
     aboutMe: {
-      title: "¡Hola! my name is Monserrat, but you can call me Monse.",
-      intro: "I am Spanish teacher, Mexican, and someone who once got stranded on a ship in the Caribbean with 300 people from 65 countries — and no internet. That experience taught me that connecting with someone in their language is worth more than any certificate.",
+      title:
+        "¡Hola! my name is Monserrat, but you can call me Monse.",
+      intro:
+        "I am Spanish teacher, Mexican, and someone who once got stranded on a ship in the Caribbean with 300 people from 65 countries — and no internet. That experience taught me that connecting with someone in their language is worth more than any certificate.",
       content:
         "I've been teaching Spanish online for over 8 years, shaping every lesson around the person in front of me: their pace, their goals, their way of learning. Not sure where to start? Finding that path together is part of the job.",
-      visitProfile: "Visit my italki profile",
-      messageWhatsapp: "Message on WhatsApp",
+      visitProfile:
+        "Visit my italki profile",
+      messageWhatsapp:
+        "Message on WhatsApp",
     },
     testimonials: {
       title: "What my <1>students</1> say",
+      calltoaction: "See more reviews from others students.",
       testimonial1: {
         name: "Audrey",
         country: "United States",
@@ -149,5 +171,4 @@ export const eng = {
       },
     },
   },
-
 };

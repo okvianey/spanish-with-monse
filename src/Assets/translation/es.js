@@ -7,6 +7,10 @@ export const esp = {
     bookYourClass: "Reserva tu clase",
     registerFor: "Registrate para una clase gratis",
     createAccount: "Crear cuenta",
+    verItalki: "Ver mi perfil de italki",
+    visitaMiPerfil: "Visita mi perfil de italki",
+    perfilItalki: "Perfil de italki",
+    mensajeWhatsapp: "Mensaje en WhatsApp",
   },
   nav: {
     howToStart: "¿Cómo comenzar?",
@@ -14,8 +18,10 @@ export const esp = {
   },
   error: "Ups, algo salió mal",
   trialClassForm: {
-    title: "Comienza tu aventura de aprender español",
-    description: "Por favor llena el formulario y me pondré en contacto para agendar tu clase muestra.",
+    title:
+      "Comienza tu aventura de aprender español",
+    description:
+      "Por favor llena el formulario y me pondré en contacto para agendar tu clase muestra.",
     terms:
       "Al crear una cuenta, aceptas nuestros Términos y condiciones . Recibirás correos electrónicos y notificaciones de Spanish with Monse  sobre el progreso de tu aprendizaje y sobre nuestros servicios. Puedes darte de baja en cualquier momento de forma gratuita. Procesaremos tus datos personales de acuerdo con nuestra Política de privacidad.",
   },
@@ -50,58 +56,80 @@ export const esp = {
   },
   main: {
     hero: {
-      title: "Habla español con <1>confianza</1> — desde tu primer clase",
-      description: "Clases privadas en línea con una maestra mexicana con más de 8 años de experiencia. Aprende a tu ritmo, sobre los temas que te interesan.",
+      title:
+        "Habla español con <1>confianza</1> desde tu primer clase",
+      description:
+        "Clases privadas en línea. Aprende a tu ritmo, sobre los temas que te interesan.",
     },
     benefits: {
       title:
         "Disfruta de los <1>beneficios</1> de aprender español con clases privadas en línea.",
-      Rhythm: "Avanza a tu ritmo",
-      RhythmText: "Tu ritmo, tu agenda — sin presión de seguir a un grupo.",
-      Conversations: "Conversaciones reales",
+      Rhythm:
+       "Avanza a tu ritmo",
+      RhythmText:
+       "Tu tiempo, tu agenda, sin presión de seguir a un grupo.",
+      Conversations:
+       "Temas de tu interés",
       ConversationsText:
-        "Conversaciones sobre lo que te importa — viajes, trabajo, familia, lo que sea.",
-      Place: "Desde cualquier lugar",
+       "Conversaciones sobre lo que te importa: viajes, trabajo, familia, lo que sea.",
+      Place:
+       "Dónde sea",
       PlaceText:
-        "Desde cualquier lugar del mundo, con solo una conexión a internet.",
-      Plan: "Define tus objetivos",
-      PlanText: "Un plan hecho para ti, no un programa genérico.",
-      Topics: "Temas de tu interés",
-      TopicsText: "Aprende con temas que ya te gustan — el idioma se vuelve el medio, no el obstáculo.",
-      Questions: "Resuelve tus dudas",
-      QuestionsText: 'Puedes preguntar lo que sea, sin sentirte "el que no entendió".',
+       "Desde cualquier lugar del mundo, con solo una conexión a internet.",
+      Plan:
+       "Define tus objetivos",
+      PlanText:
+       "Un plan hecho para ti, no un programa genérico.",
+      Topics:
+       "Temas de tu interés",
+      TopicsText:
+        "Aprende con temas que ya te gustan. El idioma se vuelve el medio, no el obstáculo.",
+      Questions:
+       "Resuelve tus dudas",
+      QuestionsText:
+       'Puedes preguntar lo que sea, sin sentirte "el que no entendió".',
     },
     goals: {
-      title: "Clases totalmente enfocadas en alcanzar tus <1>objetivos</1>. ",
+      title:
+        "Clases totalmente enfocadas en alcanzar tus <1>objetivos</1>",
       subtitle:
         "¿Cuál es el tuyo?",
       beginner:
         "Aprende a comunicarte en español desde cero, de forma práctica y sin abrumarte. Empezamos por lo que necesitas decir hoy.",
-      perfectForYou: "Ideal para ti",
+      perfectForYou:
+        "Ideal para ti",
       beginnerList:
-        "<1>Es tu primera vez intentando aprender español.</1><1>Entiendes un poco, pero no conoces la gramática.<1/>",
+        `<1>Es tu primera vez intentando aprender español.</1>
+        <1>Entiendes un poco, pero no conoces la gramática.<1/>`,
       conversation:
         "Ya entiendes algo de español, pero cuando quieres hablar, las palabras no salen. Trabajamos exactamente eso: que puedas expresarte con soltura en situaciones reales.",
       conversationList:
-        "<1>Tienes las bases, pero te cuesta comunicarte.</1><1>Te cuesta expresar tus ideas con fluidez.</1><1>Quieres practicar temas de la vida cotidiana.</1>",
+        `<1>Tienes las bases, pero te cuesta comunicarte.</1>\
+        <1>Te cuesta expresar tus ideas con fluidez.</1>\
+        <1>Quieres practicar temas de la vida cotidiana.</1>`,
       nextLevel:
         'Tu español funciona, pero quieres más: mejor pronunciación, textos más complejos, vocabulario especializado. Definimos juntos qué significa "el siguiente nivel" para ti.',
       nextLevelList:
-        "<1>Ya te comunicas bien, pero quieres sonar más natural.</1><1>•	Quieres hablar de temas especializados o técnicos.</1><1>•	Buscas mejorar pronunciación, redacción o comprensión.</1>",
+        `<1>Ya te comunicas bien, pero quieres sonar más natural.</1>\
+        <1>Quieres hablar de temas especializados o técnicos.</1>\
+        <1>Buscas mejorar pronunciación, redacción o comprensión.</1>`,
     },
     banner1: {
-      title: "¿Todavía tienes dudas?",
-      content: "Empieza con una clase gratis. Sin formularios largos, sin tarjeta de crédito — solo 30 minutos para que veas de qué va esto.",
+      title:
+        "¿Todavía tienes dudas?",
+      content:
+        "Empieza con una clase gratis. Sin formularios largos, sin tarjeta de crédito. Solo 30 minutos para que veas de qué va esto.",
     },
     banner2: {
-      title: "¿Todavía tienes dudas?",
+      title:
+        "¿Todavía tienes dudas?",
       content:
         "Totalmente normal. La primera clase es gratis para que veas cómo trabajamos y decidas cuando estés listo.",
     },
     trustBar: {
       title: "Más de 8 años enseñando español a estudiantes de todo el mundo",
       1: "+5,000",
-      label1: "clases impartidas en linea",
+      label1: "clases impartidas en línea",
       2: "+1,800",
       label2: "clases impartidas en italki",
       3: "5.0",
@@ -115,8 +143,10 @@ export const esp = {
       3: "Elige el plan de clases que prefieras",
     },
     aboutMe: {
-      title: "¡Hola! mi nombre es Monserrat, pero puedes decirme Monse.",
-      intro: "Soy maestra de español, mexicana, y alguien que alguna vez estuvo varada en un barco en el Caribe con 300 personas de 65 países distintos — sin internet. De esa experiencia aprendí que conectar con alguien en su idioma vale más que cualquier certificado.",
+      title:
+       "¡Hola! mi nombre es Monserrat, pero puedes decirme Monse.",
+      intro:
+       "Soy maestra de español, mexicana, y alguien que alguna vez estuvo varada en un barco en el Caribe con 300 personas de 65 países distintos — sin internet. De esa experiencia aprendí que conectar con alguien en su idioma vale más que cualquier certificado.",
       content:
         "Llevo más de 8 años enseñando español online, adaptando cada clase a la persona que tengo enfrente: su ritmo, sus metas, su forma de aprender. Si no sabes por dónde empezar, esa también es mi chamba — juntos lo encontramos.",
       visitProfile: "Visita mi perfil de italki",
@@ -124,6 +154,7 @@ export const esp = {
     },
     testimonials: {
       title: "Lo que dicen mis <1>estudiantes</1>",
+      calltoaction: "Ver más reseñas de otros estudiantes.",
       testimonial1: {
         name: "Audrey",
         country: "Estados Unidos",

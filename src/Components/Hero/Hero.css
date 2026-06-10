@@ -4,6 +4,8 @@
   flex-direction: column;
   justify-content: center;
   height: 100vh;
+    padding: 0;
+
 }
 .hero-container h1 {
   margin: 0;
