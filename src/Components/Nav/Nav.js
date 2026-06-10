@@ -1,3 +1,4 @@
+import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import iconHamburger from "../../Assets/icons/list.svg";
 import iconX from "../../Assets/icons/x-lg.svg";
@@ -10,15 +11,34 @@ const Nav = ({ checkLocation, t, resetScroll }) => {
   const howToStart = t("nav.howToStart");
   const aboutMe = t("nav.aboutMe");
 
-  const showNavMobile = () => {
-    const showContent = document.getElementById("toggle-nav");
-    showContent.classList.toggle("on-nav");
-    // Handle Nav mobile icon
-    const icon = document.getElementsByClassName("nav-mobile-btn");
-    icon[0].src.includes(iconHamburger) 
-      ? (icon[0].src = iconX)
-      : (icon[ 0 ].src = iconHamburger);
+
+  const [ isOpen, setIsOpen ] = useState(false);
+
+  const menuRef = useRef(null);
+  const buttonRef = useRef(null);
+
+
+
+ useEffect(() => {
+  const handleClickOutside = (event) => {
+    if (!isOpen) return;
+
+    if (
+      menuRef.current &&
+      buttonRef.current &&
+      !menuRef.current.contains(event.target) &&
+      !buttonRef.current.contains(event.target)
+    ) {
+      setIsOpen(false);
+    }
   };
+
+  document.addEventListener("click", handleClickOutside);
+
+  return () => {
+    document.removeEventListener("click", handleClickOutside);
+  };
+}, [isOpen]);
 
   return (
     <header id="header">
@@ -57,44 +77,58 @@ const Nav = ({ checkLocation, t, resetScroll }) => {
           </div>
         </div>
 
-        
+
 
         {/* Nav for mobile */}
         <div className="nav-mobile">
-          <img
-            className="nav-mobile-btn"
-            src={iconHamburger}
-            alt="hamburger-button"
-            onClick={showNavMobile}
-          />
+  <img
+    ref={buttonRef}
+    className="nav-mobile-btn"
+    src={isOpen ? iconX : iconHamburger}
+    alt="hamburger-button"
+    onClick={() => setIsOpen(prev => !prev)}
+  />
 
-          <div id="toggle-nav" className="nav-mobile-menu">
-            <div className="nav-mobile-menu-content">
-              <TranslateButton id={"toggle-translate-mobile"} />
+  <div
+    ref={menuRef}
+    className={`nav-mobile-menu ${isOpen ? "on-nav" : ""}`}
+  >
+    <div className="nav-mobile-menu-content">
+      <TranslateButton id="toggle-translate-mobile" />
 
-              {checkLocation === "/" ? (
-                <div className="nav-links-mobile">
-                  <a className="nav-link" href="#process" onClick={showNavMobile}>
-                    {howToStart}
-                  </a>
-                  <a
-                    className="nav-link"
-                    href="#about-me"
-                    onClick={showNavMobile}
-                  >
-                    {aboutMe}
-                  </a>
-                </div>
-              ) : (
-                <div className="nav-links-mobile"></div>
-              )}
+      {checkLocation === "/" && (
+        <div className="nav-links-mobile">
+          <a
+            className="nav-link"
+            href="#process"
+            onClick={() => setIsOpen(false)}
+          >
+            {howToStart}
+          </a>
 
-              <Link to="/trialClass" className="btn-shape purple-btn">
-                {bookTrialClassButton}
-              </Link>
-            </div>
-          </div>
+          <a
+            className="nav-link"
+            href="#about-me"
+            onClick={() => setIsOpen(false)}
+          >
+            {aboutMe}
+          </a>
         </div>
+      )}
+
+      <Link
+        to="/trialClass"
+        className="btn-shape purple-btn"
+        onClick={() => setIsOpen(false)}
+      >
+        {bookTrialClassButton}
+      </Link>
+    </div>
+  </div>
+</div>
+
+
+
       </nav>
     </header>
   );

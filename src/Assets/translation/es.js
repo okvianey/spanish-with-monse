@@ -148,7 +148,7 @@ export const esp = {
       intro:
        "Soy maestra de español, mexicana, y alguien que alguna vez estuvo varada en un barco en el Caribe con 300 personas de 65 países distintos — sin internet. De esa experiencia aprendí que conectar con alguien en su idioma vale más que cualquier certificado.",
       content:
-        "Llevo más de 8 años enseñando español online, adaptando cada clase a la persona que tengo enfrente: su ritmo, sus metas, su forma de aprender. Si no sabes por dónde empezar, esa también es mi chamba — juntos lo encontramos.",
+        "Llevo más de 8 años enseñando español online, adaptando cada clase a la persona que tengo enfrente: su ritmo, sus metas, su forma de aprender. Si no sabes por dónde empezar, no te preocupes, juntos encontramos el camino.",
       visitProfile: "Visita mi perfil de italki",
       messageWhatsapp: "Mensaje en WhatsApp",
     },
