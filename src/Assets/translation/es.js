@@ -57,7 +57,7 @@ export const esp = {
   main: {
     hero: {
       title:
-        "Habla español con <1>confianza</1> desde tu primer clase",
+        "Habla español con <1>confianza</1> desde tu primera clase",
       description:
         "Clases privadas en línea. Aprende a tu ritmo, sobre los temas que te interesan.",
     },
@@ -146,7 +146,7 @@ export const esp = {
       title:
        "¡Hola! mi nombre es Monserrat, pero puedes decirme Monse.",
       intro:
-       "Soy maestra de español, mexicana, y alguien que alguna vez estuvo varada en un barco en el Caribe con 300 personas de 65 países distintos — sin internet. De esa experiencia aprendí que conectar con alguien en su idioma vale más que cualquier certificado.",
+       "Soy maestra de español, mexicana, y alguien que alguna vez estuvo varada en un barco en el Caribe con 300 personas de más de 60 países, sin internet. De esa experiencia aprendí que conectar con alguien en su idioma vale más que cualquier certificado.",
       content:
         "Llevo más de 8 años enseñando español online, adaptando cada clase a la persona que tengo enfrente: su ritmo, sus metas, su forma de aprender. Si no sabes por dónde empezar, no te preocupes, juntos encontramos el camino.",
       visitProfile: "Visita mi perfil de italki",

@@ -138,7 +138,7 @@ export const eng = {
       title:
         "¡Hola! my name is Monserrat, but you can call me Monse.",
       intro:
-        "I am Spanish teacher, Mexican, and someone who once got stranded on a ship in the Caribbean with 300 people from 65 countries — and no internet. That experience taught me that connecting with someone in their language is worth more than any certificate.",
+        "I am Spanish teacher, Mexican, and someone who once got stranded on a ship in the Caribbean with 300 people from 60 countries — and no internet. That experience taught me that connecting with someone in their language is worth more than any certificate.",
       content:
         "I've been teaching Spanish online for over 8 years, shaping every lesson around the person in front of me: their pace, their goals, their way of learning. Not sure where to start? Finding that path together is part of the job.",
       visitProfile:
